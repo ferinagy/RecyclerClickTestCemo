@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/item_special"
+    android:padding="32dp"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/inner_layout_special"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="special item"/>
+
+        <Button
+            android:id="@+id/special_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click me"
+            android:layout_gravity="top|end"
+            android:layout_margin="16dp"/>
+
+    </FrameLayout>
+
+</FrameLayout>
