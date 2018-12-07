@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity(), Adapter.ItemClickListener,
     }
 
     override fun regularClicked(num: Int) {
-        Log.d("Testing", "regularClicked: $num", Exception())
+        Log.d("Testing", "regularClicked: $num")
         checking_text.text = "regular_action_$num"
     }
 
